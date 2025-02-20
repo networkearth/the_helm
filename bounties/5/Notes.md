@@ -76,6 +76,50 @@ For the second step, we will develop a series of probabilistic models following 
 
 Finally, in the third step, we will assess the model’s ability to detect cases where Chinook salmon exhibit clear depth occupancy preferences. To do this, we will design and test a set of metrics to identify such patterns and summarize them over time and space. The goal is not to provide exhaustive spatial guidance, as the full range of fishing and environmental conditions is too large, but rather to determine the model’s effectiveness in identifying depth-based avoidance opportunities. Further validation will be required to assess whether the identified low-bycatch depth ranges align with walleye pollock hotspots.
 
+## Looking for Features
+
+### Great Papers
+
+- Marine Vertical Distribution of Juvenile Chinook and Coho Salmon in Southeastern Alaska
+- Chinook salmon depth distributions on the continental shelf are shaped by interactions between location, season, and individual condition
+
+### Features Found
+
+- Bottom Depth
+- Bottom Slope
+- Day of the Year
+- Lunar Cycle
+- Day vs Night
+- Surface Temps
+- Temps at Depth
+- Current Direction
+- Zooplankton 
+- Chlorophyll
+- Oxygen
+- Salinity
+- Thermocline Depth
+- Size
+
+Let's see what we can build with what's already in the database. 
+
+### Results
+
+- Model Selection 
+  - A table with each of the models and the appropriate statistics to go with them 
+  - Any notes on the changs in the statistics 
+- What the model found (as compared to other papers)
+  - Seasonal patterns 
+  - Diel patterns 
+  - Against the environmental variables 
+  - Elevation (because folks talk about that too)
+- How this helps with decision making 
+  - Auxillary data and the need to inform not make decisions
+  - Min maxing with constraints
+  - High level (where or when)
+  - Lower level (time and place)
+  - Where to set a net 
+
+
 
 
 
